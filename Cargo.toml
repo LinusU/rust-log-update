@@ -1,0 +1,18 @@
+[package]
+name = "log-update"
+version = "0.1.0"
+authors = ["Linus Unnebäck <linus@folkdatorn.se>"]
+
+description = "Log by overwriting the previous output in the terminal"
+homepage = "https://github.com/LinusU/rust-log-update"
+documentation = "https://docs.rs/log-update"
+repository = "https://github.com/LinusU/rust-log-update"
+keywords = ["animation", "log", "overwrite", "output", "refresh"]
+readme = "readme.md"
+license = "MIT"
+
+[dependencies]
+ansi-escapes = "~0.1.0"
+
+[dev-dependencies]
+tempfile = "^2.1.4"
